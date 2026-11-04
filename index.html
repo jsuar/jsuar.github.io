@@ -5,9 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>John Suarez</title>
   <meta name="description" content="Personal site: projects, art, and a standing interest in math.">
+  <link rel="canonical" href="https://jsuar.github.io/">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://jsuar.github.io/">
+  <meta property="og:site_name" content="John Suarez">
   <meta property="og:title" content="John Suarez">
   <meta property="og:description" content="Personal site: projects, art, and a standing interest in math.">
+  <meta property="og:image" content="https://jsuar.github.io/images/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="John Suarez: projects, art, and a standing interest in math.">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": "https://jsuar.github.io/",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "John Suarez",
+      "url": "https://jsuar.github.io/",
+      "description": "Programmer who makes art and has a standing interest in math.",
+      "sameAs": [
+        "https://github.com/jsuar",
+        "https://www.linkedin.com/in/jsuar",
+        "https://www.flickr.com/jsuar"
+      ]
+    },
+    "hasPart": [
+      {
+        "@type": "WebApplication",
+        "name": "Phone in the Middle",
+        "url": "https://phoneinthemiddle.com",
+        "applicationCategory": "GameApplication",
+        "description": "Floor games for families. Set the phone down in the middle, sit in a circle, and play with each other."
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "name": "Nomad Custodian",
+        "codeRepository": "https://github.com/jsuar/nomad-custodian",
+        "description": "CLI for Nomad administrators to manage job resources with cost and maintenance in mind."
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "name": "go-cron-descriptor",
+        "codeRepository": "https://github.com/jsuar/go-cron-descriptor",
+        "programmingLanguage": "Go",
+        "description": "Go library that turns cron expressions into human-readable strings."
+      }
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,7 +72,25 @@
     </section>
 
     <section>
-      <h2>projects</h2>
+      <h2>new projects</h2>
+      <ul class="projects">
+        <li>
+          <a href="https://phoneinthemiddle.com"><strong>Phone in the Middle</strong></a>
+          <p>Floor games for families. Set the phone down in the middle, sit in a circle, and play with each other.</p>
+        </li>
+        <li>
+          <strong>Job Monitor</strong>
+          <p>Automated scraper that watches company career pages and pings Slack on relevant openings.</p>
+        </li>
+        <li>
+          <strong>Moonrise Monitor</strong>
+          <p>Slack bot for moon-phase tracking and viewing conditions, with weather data.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>old projects</h2>
       <ul class="projects">
         <li>
           <a href="https://github.com/jsuar/nomad-custodian"><strong>Nomad Custodian</strong></a>
@@ -31,14 +99,6 @@
         <li>
           <a href="https://github.com/jsuar/go-cron-descriptor"><strong>go-cron-descriptor</strong></a>
           <p>Go library that turns cron expressions into human-readable strings.</p>
-        </li>
-        <li>
-          <strong>Moonrise Monitor</strong>
-          <p>Slack bot for moon-phase tracking and viewing conditions, with weather data.</p>
-        </li>
-        <li>
-          <strong>Job Monitor</strong>
-          <p>Automated scraper that watches company career pages and pings Slack on relevant openings.</p>
         </li>
         <li>
           <strong>Home Assistant, Slack integration</strong>

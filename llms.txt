@@ -1,0 +1,23 @@
+# John Suarez
+
+> Personal site of John Suarez: projects, art, and a standing interest in math. Programmer who likes learning new things and connecting with people about their passions.
+
+Also reachable at johnsuarez.com.
+
+## New projects
+
+- [Phone in the Middle](https://phoneinthemiddle.com): Floor games for families. Set the phone down in the middle, sit in a circle, and play with each other.
+- Job Monitor: Automated scraper that watches company career pages and pings Slack on relevant openings.
+- Moonrise Monitor: Slack bot for moon-phase tracking and viewing conditions, with weather data.
+
+## Old projects
+
+- [Nomad Custodian](https://github.com/jsuar/nomad-custodian): CLI for Nomad administrators to manage job resources with cost and maintenance in mind.
+- [go-cron-descriptor](https://github.com/jsuar/go-cron-descriptor): Go library that turns cron expressions into human-readable strings.
+- Home Assistant, Slack integration: Maintainer contributions to the Slack integration.
+
+## Links
+
+- [GitHub](https://github.com/jsuar)
+- [LinkedIn](https://www.linkedin.com/in/jsuar)
+- [Flickr](https://www.flickr.com/jsuar)
