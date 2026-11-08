@@ -7,6 +7,7 @@ Also reachable at johnsuarez.com.
 ## New projects
 
 - [Phone in the Middle](https://phoneinthemiddle.com): Floor games for families. Set the phone down in the middle, sit in a circle, and play with each other.
+- Sandswept: Hyperlocal weather for iOS, straight from your own Tempest station, with Home Screen and Lock Screen widgets.
 - Job Monitor: Automated scraper that watches company career pages and pings Slack on relevant openings.
 - Moonrise Monitor: Slack bot for moon-phase tracking and viewing conditions, with weather data.
 
